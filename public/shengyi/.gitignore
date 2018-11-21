@@ -1,0 +1,29 @@
+
+
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
+.DS_Store
+node_modules/
+dist/
+dist/*
+admin/
+admin/*
+weixinCopy/
+weixinCopy/*
+npm-debug.log
+
+
+
+
+
+
+
+>>>>>>> ab16344e4d41b4b90b2898eec5b32bcaef48b5f8

@@ -1,0 +1,6 @@
+{
+      "name": "npm",
+       "script": "npm",
+       "args" : "dev",
+       "watch": [".nuxt"],   // 监控输出目录
+}

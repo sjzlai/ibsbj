@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9f514f2-3949-4b1e-af23-09ffaf295fee" name="默认" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/AboutController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/DownloadController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/GoodsCateController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/EnableCrossRequestMiddleware.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Middleware/Header.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/Http/Model/GoodsCate.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223142724213.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223144119594.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223144144476.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223144346985.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223144541751.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223144605216.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223144730974.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223144836684.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223145106578.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223145214263.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223145236427.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-23/20180223150537955.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-24/20180224112341470.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-24/20180224142846924.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-02-27/20180227105834667.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-07-24/20180724113215696.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-07-27/20180727100132615.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-07-27/20180727100729719.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-22/20180822145855546.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-22/20180822152730685.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-22/20180822153200527.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823110502787.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823112313399.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823112720375.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823155306925.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823160636327.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823161037489.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823162349302.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823163008578.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823163127266.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823163558791.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823164009956.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-23/20180823164555460.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-24/20180824141459516.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-24/20180824141557935.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-24/20180824142122438.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-27/20180827151403236.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-27/20180827152300607.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-27/20180827152834789.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-27/20180827154501529.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-27/20180827154936439.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-27/20180827155045589.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-27/20180827155917756.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828152541413.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828152757470.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828153354412.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828155152521.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828155435735.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828160528191.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828161638732.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-28/20180828162236417.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/article/2018-08-29/20180829094350235.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/file/2018-01-22/1.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/file/2018-02-27/20180227110532361.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/file/2018-02-27/20180227112046323.docx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/shengyi" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180223/1519367225312394.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180223/1519367228803388.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180223/1519367229149579.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180223/1519367229541724.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180724/1532403178980763.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656101590598.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656494769210.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656587370534.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656602361419.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656620307275.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656639372371.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656683765476.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532656700470305.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657062314130.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657074458702.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657095893368.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657124613229.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657143192345.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657168488614.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657176830416.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532657217718910.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532658122726724.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532666712976238.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532667024241665.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180727/1532667031329708.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180822/1534923083421924.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1534993280946337.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1534993667805939.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1534993741919845.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1534993852205087.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1534993880108844.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1534993918637660.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1534994168694581.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535003980281420.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535004373165846.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535007379916627.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535007639953622.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535010343379986.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535010446173271.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535010499722473.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535010716725571.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535011116887501.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535011363349544.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535011471934571.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535011479610560.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535011508598763.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535011540582692.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535011583492717.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180823/1535013931649622.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180827/1535353959270959.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180827/1535354826451139.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180827/1535354840370932.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180827/1535354860219441.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180828/1535440906216441.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180828/1535440983530995.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180828/1535441102650982.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180828/1535441107308478.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180828/1535443476627883.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/ueditor/php/upload/image/20180828/1535443481381378.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-23/20180223141137416.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-23/20180223141139750.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-23/20180223141140201.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-23/20180223141140391.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-23/20180223141140429.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-24/20180224171218506.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-24/small_20180224171218506.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-24/thum_20180224171218506.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226105715741.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226105730775.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226105827696.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226110008480.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226110020850.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226110414804.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226110846786.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226110847549.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226111316792.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226112735843.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226112918108.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226113027406.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226113114892.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226113211688.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226113336467.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226125856959.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226130046563.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226130119847.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226131636531.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/20180226141153472.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226105715741.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226105730775.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226105827696.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226110008480.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226110020850.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226110414804.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226110846786.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226110847549.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226111316792.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226112735843.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226112918108.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226113027406.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226113114892.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226113211688.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226113336467.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226125856959.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226130046563.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226130119847.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226131636531.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/small_20180226141153472.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226105715741.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226105730775.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226105827696.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226110008480.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226110020850.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226110414804.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226110846786.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226110847549.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226111316792.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226112735843.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226112918108.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226113027406.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226113114892.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226113211688.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226113336467.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226125856959.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226130046563.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226130119847.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226131636531.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-26/thum_20180226141153472.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-27/20180227110130463.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-27/small_20180227110130463.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-02-27/thum_20180227110130463.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-26/20180726140319833.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-26/small_20180726140319833.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-26/thum_20180726140319833.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727093324710.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727102834134.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727102851905.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727102855143.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727102925238.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727102927538.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727102955548.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727103035421.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727124651850.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/20180727125045770.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727093324710.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727102834134.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727102851905.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727102855143.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727102925238.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727102927538.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727102955548.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727103035421.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727124651850.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/small_20180727125045770.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727093324710.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727102834134.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727102851905.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727102855143.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727102925238.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727102927538.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727102955548.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727103035421.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727124651850.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-07-27/thum_20180727125045770.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/20180816091304795.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/20180816091307728.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/20180816091418216.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/20180816091956518.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/20180816092046312.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/small_20180816091304795.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/small_20180816091307728.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/small_20180816091418216.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/small_20180816091956518.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/small_20180816092046312.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/thum_20180816091304795.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/thum_20180816091307728.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/thum_20180816091418216.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/thum_20180816091956518.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/uploads/2018-08-16/thum_20180816092046312.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/article/edit.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/errors/404.blade.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/views/errors/500.blade.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/FileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/FileController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/GcateController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/GcateController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/GoodsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/GoodsController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/RecruitController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/RecruitController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/UploadController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UploadController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/GoodsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/GoodsController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Home/NewsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Home/NewsController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Model/Goods.php" afterPath="$PROJECT_DIR$/app/Http/Model/Goods.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Model/Images.php" afterPath="$PROJECT_DIR$/app/Http/Model/Images.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change beforePath="$PROJECT_DIR$/lar.sql" afterPath="$PROJECT_DIR$/lar.sql" />
+      <change beforePath="$PROJECT_DIR$/public/style/js/uploadImg.js" afterPath="$PROJECT_DIR$/public/style/js/uploadImg.js" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/20180118153638175.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/20180118153639402.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/20180118153639941.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/20180118153640191.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/small_20180118153638175.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/small_20180118153639402.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/small_20180118153639941.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/small_20180118153640191.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/small_20180121215645677.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/small_20180121215919152.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/thum_20180118153638175.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/thum_20180118153639402.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/thum_20180118153639941.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/thum_20180118153640191.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/thum_20180121215645677.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/2018-01-18/thum_20180121215919152.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/article/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/article/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/gcate/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/gcate/edit.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/goods/add.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/goods/add.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/goods/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/goods/edit.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/goods/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/goods/index.blade.php" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/upload/add.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/upload/add.blade.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="NewsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/NewsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+              <folding>
+                <element signature="e#45#72#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1917">
+              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#392#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/GoodsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1079">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding>
+                <element signature="e#45#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Images.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Model/Images.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Goods.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Model/Goods.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UploadController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Model/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Article.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Model/Article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/functions.php" />
+        <option value="$PROJECT_DIR$/bootstrap/autoload.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Home/NewsController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Home/GoodsController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code SmellPHP</id>
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>常规</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>常规</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ibs-bj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ibs-bj" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ibs-bj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ibs-bj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9f514f2-3949-4b1e-af23-09ffaf295fee" name="默认" comment="" />
+      <created>1516669756714</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516669756714</updated>
+      <workItem from="1516669758022" duration="867000" />
+      <workItem from="1516670997396" duration="7020000" />
+      <workItem from="1516679533546" duration="4369000" />
+      <workItem from="1542790128349" duration="77000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12333000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3291634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="e#45#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UploadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1220">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UploadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="71" column="51" lean-forward="true" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/UploadController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding>
+            <element signature="e#45#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Model/Goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/GoodsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1079">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
